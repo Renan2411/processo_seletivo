@@ -1,7 +1,7 @@
 <?php 
     $ano = $_GET['ano'];
 
-    function sec($ano){
+    function seculoAno($ano){
         $sec = $ano%100;
 
         if($ano <= 100){
@@ -13,7 +13,7 @@
         }
     }
 
-    sec($ano)
+    seculoAno($ano)
 
 
     
